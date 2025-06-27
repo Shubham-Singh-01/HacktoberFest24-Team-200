@@ -13,7 +13,7 @@ const Logo = () => (
 const LogoName = () => (
   <div className="flex items-center space-x-2">
     <img
-      src="/public/Images/Logo_name.png"
+      src="/Images/Logo_name.png"
       alt="Store Name Logo"
       className="h-6 w-auto"
     />
