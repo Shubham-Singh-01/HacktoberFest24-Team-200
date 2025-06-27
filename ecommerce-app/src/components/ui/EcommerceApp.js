@@ -5,7 +5,7 @@ import { AccountDropdown, SideMenu, CategoriesDropdown } from "./NavigationCompo
 
 const Logo = () => (
   <div className="flex items-center space-x-2">
-    <img src="/images/logo.png" alt="Store Logo" className="h-12 w-auto" />
+    <img src="/Images/Logo.png" alt="Store Logo" className="h-12 w-auto" />
     <span className="text-xl font-bold text-white hidden md:block"></span>
   </div>
 );
@@ -13,7 +13,7 @@ const Logo = () => (
 const LogoName = () => (
   <div className="flex items-center space-x-2">
     <img
-      src="/images/logo_name.png"
+      src="/public/Images/Logo_name.png"
       alt="Store Name Logo"
       className="h-6 w-auto"
     />
