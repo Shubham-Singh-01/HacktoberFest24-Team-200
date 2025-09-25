@@ -31,7 +31,7 @@
 ## 🌐 Live Demo
 
 <p align="center">
-  <a href="https://cloud-deck.vercel.app/" target="_blank">
+  <a href="https://urban-hive-alpha.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Hosted%20on-Vercel-000?logo=vercel&logoColor=white" alt="Vercel Badge">
   </a><br/>
   <sub>Experience the full shopping platform</sub>
@@ -99,7 +99,8 @@
 
 ### 🎉 **Surprise!** This app includes a complete admin panel!
 
-*Discover the admin credentials by exploring the application*
+*Discover the admin panel at /admin-panel at logging in from any account, it's should have worked only with admin id-pass but prod. builds never works like dev, do they ? 😭*
+
 
 **Admin Features Include:**
 - Complete product management system
@@ -245,14 +246,14 @@ Released under the [MIT License](LICENSE) - Free to use and modify
 
 ## 🤝 Contributing
 
-Your contributions can make Urban Hive even better! Check our [issues page](https://github.com/yourusername/urban-hive/issues).
+Your contributions can make Urban Hive even better! Check our [issues page](https://github.com/Shubham-Singh-01/urban-hive/issues).
 
 ---
 
-### Crafted with ❤️ by [Your Name]
+### Crafted with ❤️ by Shubham Singh :)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00A98F?style=for-the-badge&logo=safari)](https://yourportfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/singh200410)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Shubham-Singh-01)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00A98F?style=for-the-badge&logo=safari)](https://ss-folio.vercel.app)
 
 </div>
