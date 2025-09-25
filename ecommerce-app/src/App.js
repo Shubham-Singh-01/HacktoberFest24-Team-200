@@ -15,6 +15,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import CustomerService from "./components/CustomerService";
 import CategoryPage from "./components/CategoryPage";
 import TermsAndConditions from "./components/TermsAndConditions";
+import ProductManager from "./components/ProductManager";
 
 
 // Profile Component
@@ -250,6 +251,13 @@ const App = () => {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/category/:category/:subcategory" element={<CategoryPage />} />
+        
+        {/* Admin Panel Route */}
+        <Route path="/admin-panel" element={
+          <ProtectedRoute>
+            <ProductManager />
+          </ProtectedRoute>
+        } />
         
       </Routes>
     </Router>

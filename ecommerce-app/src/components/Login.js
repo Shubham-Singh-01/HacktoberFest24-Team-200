@@ -15,9 +15,19 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    // Check for admin credentials
+    if (formData.emailOrPhone === 'admin@urbanhive.com' && formData.password === 'Admin@123') {
+      localStorage.setItem('isLoggedIn', 'true');
+      localStorage.setItem('userRole', 'admin');
+      navigate('/admin-panel');
+      return;
+    }
+    
     // Here you would typically make an API call to verify credentials
     // For demo purposes, we'll simulate a successful login
     localStorage.setItem('isLoggedIn', 'true');
+    localStorage.setItem('userRole', 'user');
     navigate('/');
   };
 

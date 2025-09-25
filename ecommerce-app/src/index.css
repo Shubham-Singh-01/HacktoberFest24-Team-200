@@ -19,3 +19,103 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Mobile optimizations */
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /* Touch-friendly tap areas */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Better mobile viewport handling */
+  @supports (-webkit-touch-callout: none) {
+    .mobile-full-height {
+      min-height: -webkit-fill-available;
+    }
+  }
+  
+  /* Custom hover scale */
+  .hover\:scale-102:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Ensure at least 2 products per row on very small screens */
+  @media screen and (max-width: 428px) {
+    .small-screen-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+  
+  /* Custom slider styling */
+  .slider-thumb::-webkit-slider-thumb {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slider-thumb::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Custom responsive breakpoints for specific mobile sizes */
+@media screen and (max-width: 480px) {
+  /* Very small mobile phones */
+  .mobile-sm-text {
+    font-size: 0.875rem;
+  }
+  
+  .mobile-sm-padding {
+    padding: 0.75rem;
+  }
+  
+  .mobile-sm-gap {
+    gap: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 720px) and (min-width: 481px) {
+  /* Medium mobile phones and small tablets */
+  .mobile-md-text {
+    font-size: 1rem;
+  }
+  
+  .mobile-md-padding {
+    padding: 1rem;
+  }
+  
+  .mobile-md-gap {
+    gap: 1rem;
+  }
+}
+
