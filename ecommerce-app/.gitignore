@@ -22,5 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Private admin documentation
 ADMIN_ACCESS.md
 PRODUCT_MANAGEMENT.md
+
+# Local documentation for prep & reference
+PROJECT_DOCUMENTATION.md
+START_HERE.md
