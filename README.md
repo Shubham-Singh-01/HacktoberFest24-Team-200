@@ -237,7 +237,7 @@ npm test
 npm test -- --testPathPattern="performance" --watchAll=false
 ```
 
-**📊 View Full Report:** See [TEST_REPORT.md](ecommerce-app\TEST_REPORT.md) for detailed test results and metrics.
+**📊 View Full Report:** See [TEST_REPORT.md](ecommerce-app/TEST_REPORT.md) for detailed test results and metrics.
 
 ---
 
