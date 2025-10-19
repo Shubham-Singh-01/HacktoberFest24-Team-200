@@ -73,6 +73,11 @@
 [![LocalStorage](https://img.shields.io/badge/LocalStorage-Browser_API-FF6B6B?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+### Testing & Quality
+[![Jest](https://img.shields.io/badge/Jest-Latest-C21325?style=flat-square&logo=jest&logoColor=white)](https://jestjs.io/)
+[![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-Latest-E33332?style=flat-square&logo=testing-library&logoColor=white)](https://testing-library.com/react)
+[![Performance API](https://img.shields.io/badge/Performance%20API-Measurements-4FC3F7?style=flat-square&logo=chrome&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Performance)
+
 </div>
 
 ---
@@ -197,6 +202,42 @@ URBAN HIVE/
 - **Responsive Design** - Optimized for all device sizes
 - **LocalStorage** - Data persistence for development
 - **Image Handling** - Secure image loading and display
+
+---
+
+## 🧪 Performance & Testing
+
+### Comprehensive Test Coverage
+
+<div align="center">
+
+| Test Suite | Tests | Status |
+|:----------:|:-----:|:------:|
+| Filter Performance | 6 | ✅ |
+| Cart Persistence | 7 | ✅ |
+| Admin Panel Performance | 10+ | ✅ |
+
+</div>
+
+### Performance Optimizations
+
+- **React Hooks** - `useMemo` implementation for optimal filtering
+- **Client-Side Optimization** - Efficient category filtering and search
+- **Admin Panel** - Optimized for 1000+ product catalogs
+- **Cart Persistence** - LocalStorage with < 0.1ms operations
+- **CRUD Operations** - All operations complete in < 50ms
+
+### Running Tests
+
+```bash
+# Run all tests
+npm test
+
+# Run performance tests only
+npm test -- --testPathPattern="performance" --watchAll=false
+```
+
+**📊 View Full Report:** See [TEST_REPORT.md](TEST_REPORT.md) for detailed test results and metrics.
 
 ---
 
